@@ -1,6 +1,3 @@
 # Estudos de Sistemas Web
 
-Este repositório contém a atividade prática de construção e refatoração de uma
-interface web.
-
-O projeto completo está na pasta [`atividade-interface`](atividade-interface/).
+Repositório usado para desenvolvimentos das atividades da disciplina CC6PDSW - Projeto e Desenvolvimento de Sistemas Web
