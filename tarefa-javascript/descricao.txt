@@ -1,0 +1,42 @@
+Objetivo da Atividade
+
+Desenvolver uma interface simples que valide, em tempo real, o nome digitado pelo usuário, aplicando estilos dinâmicos com Tailwind e manipulando o DOM com JavaScript.
+Descrição da Tarefa
+
+Você deverá criar um campo de entrada onde o usuário digita seu nome. Conforme ele digita, o sistema deve validar o conteúdo e fornecer feedback visual imediato.
+Etapas de Desenvolvimento
+1. Estrutura HTML
+
+Crie os elementos básicos da interface:
+
+    Um campo de entrada (input)
+    Um parágrafo (p) para exibir mensagens ao usuário
+
+2. Estilização com Tailwind
+
+Aplique estilos básicos utilizando classes utilitárias:
+
+    Borda no input
+    Espaçamento interno (padding)
+    Espaçamento entre elementos
+
+3. Seleção de Elementos (DOM)
+
+No JavaScript, capture os elementos criados:
+
+    Input
+    Parágrafo de mensagem
+
+4. Evento de Entrada (input)
+
+Adicione um listener para capturar a digitação do usuário em tempo real
+5. Lógica de Validação
+
+Implemente a seguinte regra:
+
+    Se o nome tiver menos de 3 caracteres:
+        Texto de erro
+        Input com borda vermelha
+    Caso contrário:
+        Texto de sucesso
+        Input com borda verde
