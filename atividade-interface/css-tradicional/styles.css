@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  color: #222222;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: #4b5563;
+}
+
+header {
+  background-color: #4b5563;
+  padding: 18px 0;
+}
+
+.cabecalho-conteudo {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nome-blog {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 18px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.pagina-atual {
+  text-decoration: underline;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+section {
+  background-color: white;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+.apresentacao,
+.postagem-destaque,
+.sobre-blog {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.apresentacao div,
+.postagem-destaque div,
+.sobre-blog div {
+  flex: 1;
+}
+
+.apresentacao img,
+.postagem-destaque img,
+.sobre-blog img {
+  width: 40%;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #4b5563;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.lista-postagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.postagem {
+  border: 1px solid #cccccc;
+  flex: 1 1 220px;
+  padding: 15px;
+}
+
+.postagem img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.chamada {
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+footer {
+  background-color: #374151;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .cabecalho-conteudo,
+  .apresentacao,
+  .postagem-destaque,
+  .sobre-blog,
+  .lista-postagens {
+    flex-direction: column;
+  }
+
+  .apresentacao img,
+  .postagem-destaque img,
+  .sobre-blog img {
+    width: 100%;
+  }
+}

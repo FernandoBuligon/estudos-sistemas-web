@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Lorem - Início</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-gray-600 text-white">
+    <div class="mx-auto flex max-w-4xl flex-col items-center justify-between gap-3 p-4 md:flex-row">
+      <a href="index.html" class="text-2xl font-bold">Blog Lorem</a>
+      <nav class="flex gap-4" aria-label="Menu principal">
+        <a href="index.html" class="underline" aria-current="page">Início</a>
+        <a href="postagens.html">Postagens</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-4xl p-4">
+    <section class="mb-6 flex flex-col items-center gap-6 border border-gray-300 bg-white p-6 md:flex-row">
+      <div class="w-full md:w-1/2">
+        <h1 class="mb-3 text-3xl font-bold">Lorem ipsum dolor sit amet</h1>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="postagens.html" class="inline-block bg-gray-600 px-4 py-2 text-white">Ver postagens</a>
+      </div>
+      <img src="../imagem.png" alt="Imagem de exemplo do blog" class="w-full md:w-1/2">
+    </section>
+
+    <section class="mb-6 border border-gray-300 bg-white p-6">
+      <h2 class="mb-2 text-2xl font-bold">Lorem ipsum dolor</h2>
+      <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <div class="flex flex-col gap-4 md:flex-row">
+        <article class="w-full border border-gray-300 p-4 md:w-1/3">
+          <img src="../imagem.png" alt="Imagem da primeira postagem" class="mb-3 w-full">
+          <h3 class="mb-2 text-xl font-bold">Lorem ipsum dolor sit amet</h3>
+          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae sapien ut libero venenatis faucibus.</p>
+          <a href="postagens.html" class="text-gray-600 underline">Ler postagem</a>
+        </article>
+
+        <article class="w-full border border-gray-300 p-4 md:w-1/3">
+          <img src="../imagem.png" alt="Imagem da segunda postagem" class="mb-3 w-full">
+          <h3 class="mb-2 text-xl font-bold">Lorem ipsum dolor sit amet</h3>
+          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio praesent libero sed cursus.</p>
+          <a href="postagens.html" class="text-gray-600 underline">Ler postagem</a>
+        </article>
+
+        <article class="w-full border border-gray-300 p-4 md:w-1/3">
+          <img src="../imagem.png" alt="Imagem da terceira postagem" class="mb-3 w-full">
+          <h3 class="mb-2 text-xl font-bold">Lorem ipsum dolor sit amet</h3>
+          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis sem at nibh elementum imperdiet.</p>
+          <a href="postagens.html" class="text-gray-600 underline">Ler postagem</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="mb-6 border border-gray-300 bg-gray-200 p-6 text-center">
+      <h2 class="mb-2 text-2xl font-bold">Lorem ipsum dolor sit amet</h2>
+      <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis ipsum praesent mauris.</p>
+      <a href="sobre.html" class="inline-block bg-gray-600 px-4 py-2 text-white">Conhecer o blog</a>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 p-4 text-center text-white">
+    <p>Lorem ipsum dolor sit amet - 2026.</p>
+  </footer>
+</body>
+</html>

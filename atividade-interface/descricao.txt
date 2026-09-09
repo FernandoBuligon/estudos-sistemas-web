@@ -1,0 +1,17 @@
+Atividade Prática: Construção e Refatoração de Interface Web
+Objetivo
+
+Desenvolver uma interface web estruturada e responsiva utilizando HTML + CSS (Flexbox) e, posteriormente, realizar a refatoração visual utilizando Tailwind CSS, compreendendo diferenças de abordagem entre CSS tradicional e utilitário.
+Descrição Geral da Atividade
+
+Os alunos deverão desenvolver um pequeno projeto web composto por no mínimo 3 páginas HTML distintas, simulando um site simples (ex: loja virtual, portfólio, catálogo de produtos, etc.).
+
+Cada página deve conter pelo menos 3 seções visuais (dobras de tela / “screens”), garantindo organização de conteúdo e aplicação de layout.
+Entrega Esperada
+
+O aluno deverá entregar:
+
+    Pasta do projeto contendo:
+        Arquivos HTML
+        Arquivo CSS
+    Versão com Tailwind separada ou identificada
