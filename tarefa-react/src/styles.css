@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  background-color: #2563a6;
+  color: white;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  padding: 30px 0;
+}
+
+section {
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  background-color: white;
+  padding: 25px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.grade-perfis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card-perfil {
+  border: 1px solid #cccccc;
+  background-color: white;
+  padding: 20px;
+}
+
+.card-perfil h2 {
+  margin-bottom: 5px;
+}
+
+.curso {
+  color: #2563a6;
+  font-weight: bold;
+}
+
+.lista-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lista-habilidades li {
+  border-radius: 4px;
+  background-color: #e2e8f0;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .grade-perfis {
+    grid-template-columns: 1fr;
+  }
+
+  .cabecalho {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+  }
+}
